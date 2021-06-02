@@ -11,4 +11,9 @@ const CONSTANTE_LUNAR = 1.622
 let pesoLunar = ((parseInt(pesoKg) / CONSTANTE_GRAVITACIONAL) * CONSTANTE_LUNAR)
 
 //Arrojamos el resultado con solo 2 decimales
-alert('Tu peso en la Luna es: ' + pesoLunar.toFixed(2))
+
+let result = 'Tu peso en la Luna es: ' + pesoLunar.toFixed(2)
+let resultTwo = `Tu peso en la Luna es: ${pesoLunar.toFixed(2)} kg`
+
+
+alert(resultTwo)
