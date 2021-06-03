@@ -32,7 +32,7 @@ switch (CLIMA) {
 
     default:
         const NUEVO_CLIMA = prompt("No tengo registrado ese clima ¿cómo lo llamas?")
-        const DESCRIPCION = prompt(`¿Qué tal está el clima '${NUEVO_CLIMA}' ?`)
+        const DESCRIPCION = prompt(`¿Qué tal está el clima '${NUEVO_CLIMA}' ?, ¿qué le gustaria hacer?`)
 
         console.log(`El clima '${NUEVO_CLIMA}' está ${DESCRIPCION}`)
 
