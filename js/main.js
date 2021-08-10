@@ -1,4 +1,3 @@
-
 var productsList = [{
     name: 'producto 1',
     price: 12.45,
@@ -73,5 +72,6 @@ const getProductsPrice = array => array.reduce((accum, current) => accum + curre
 
 let totalPrice = getProductsPrice(productsList)
 console.log(totalPrice)
+
 
 
